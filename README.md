@@ -27,15 +27,16 @@ Assignments are submitted using a professional-grade git-flow. If you haven't do
 
 ## Index of Cheatsheets and Resources
 
-- [new project setup](https://codefellows.github.io/code-201-guide/curriculum/class-02/project-setup){:target="_blank"}
-- [css everything cheatsheet](https://overapi.com/css){:target="_blank"}
-- [collection of cheatsheets by overApi](https://overapi.com/){:target="_blank"}
-- [boolean practice](https://codefellows.github.io/code-201-guide/curriculum/class-03/facilitator/boolean-practice){:target="_blank"}
-- [javascript structure](https://codefellows.github.io/code-201-guide/curriculum/class-09/facilitator/javascript-practice){:target="_blank"}
-- [post 201 study guide](https://codefellows.github.io/code-201-guide/curriculum/class-15/facilitator/post-201-study-guide){:target="_blank"}
-- [git and github basics guide](https://codefellows.github.io/code-201-guide/curriculum/class-02/git-and-github-basics-guide){:target="_blank"}
-- [css2 cheat sheat](https://codefellows.github.io/code-201-guide/curriculum/cheat-sheets/css2-cheat-sheet){:target="_blank"}
-- [css3 cheat sheat](https://codefellows.github.io/code-201-guide/curriculum/cheat-sheets/css3-cheat-sheet){:target="_blank"}
-- [html5 reference tags](https://codefellows.github.io/code-201-guide/curriculum/cheat-sheets/htm-5-reference-tags){:target="_blank"}
-- [html5 sectioning flow chart](https://codefellows.github.io/code-201-guide/curriculum/cheat-sheets/html5-sectioning-flowchart){:target="_blank"}
-- [handling merge conflicts](https://codefellows.github.io/code-201-guide/curriculum/class-15/handling-merge-conflicts){:target="_blank"}
+- [New Project Setup](class-02/project_setup.md)
+- [README template](class-02/README-template.md)
+- [Git and GitHub Basics](class-02/git-and-github-basics-guide.md)
+- [CSS Everything Cheatsheet](https://overapi.com/css)
+- [CSS2 Cheat Sheet](cheat-sheets/css2-cheat-sheet.pdf)
+- [CSS3 Cheat Sheet](cheat-sheets/css3-cheat-sheet.pdf)
+- [HTML 5 Reference Tags](cheat-sheets/html5-reference-tags.jpg)
+- [HTML 5 Sectioning Flow Chart](cheat-sheets/html5-sectioning-flowchart.pdf)
+- [Collection of Cheatsheets by overApi](https://overapi.com/)
+- [Boolean Practice](class-03/boolean-practice.md)
+- [Javascript Structure](class-09/javascript-structure.md)
+- [Git - Handling Merge Conflicts](class-15/handling-merge-conflicts.md)
+- [Post 201 Study Guide](class-15/post-201-study-guide.md)
