@@ -2,6 +2,16 @@ body {
   background-color: bisque;
   width: 960px;
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
+ul {
+  list-style: disc;
+  list-style-position: inside;
+  /* margin: 50px; */
+
+}
+
+ol {
+  list-style: lower-roman;
+} 

@@ -10,9 +10,12 @@ alert('Hello ' + userName + ', nice to meet you!');
 
 // write 5 questions.  they MUST accept yes or no OR y or n IN ANY CASE
 // examples: YES, yes, YEs, yeS, yEs, Y, y
-var questionOne = prompt('Do I live in Seattle?').toLowerCase();
+// is this an appropriate name?
 
-if(questionOne === 'yes' || questionOne === 'y') {
+// question one
+var answerOne = prompt('Do I live in Seattle?').toLowerCase();
+
+if(answerOne === 'yes' || answerOne === 'y') {
   // console.log('you are correct');
   alert('you are correct');
 }
