@@ -1,5 +1,10 @@
 # HTML Lists, Control Flow with JS, and the CSS Box Model
 
+## repl and code pens
+- [Repl:  Review If Statements](https://repl.it/@rkgallaway/201n21-review-02-if-statements#index.js)
+- [CodePen: CSS Box Model](https://codepen.io/rkgallaway/pen/vYXvzRR)
+- [Repl: Arrays and Loops](https://repl.it/@rkgallaway/201n21-arrays-and-loops#index.js)
+
 ## Learning Objectives
 
 As a result of completing Lecture 3 of Code 201, students will:

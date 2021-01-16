@@ -1,7 +1,7 @@
 'use strict';
 
 // linter test - if not used this should have red marks underneath it
-var banana =  42;
+// var banana =  42;
 
 // get user name and offer greeting
 var userName = prompt('Hello, what\'s your name?');
