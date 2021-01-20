@@ -9,7 +9,7 @@
 #### Pros
 
 - shout outs to instructional staff:  Bryant, Paul, Ryan, TAs in general
-- things seem tob e going well overall
+- things seem to be going well overall
 - code review
 - conceptual coverage - many angles, demo, practice challenges,  lab
 - collaboration - remo
@@ -29,7 +29,10 @@
     - if getting help, maybe best to go to another table?
     - if question, does it have to be asked to move forward?  if not, perhaps save til you have a few and ask them in same conversation - less interupptions
     - silence mics when not engaging group
-    - weigh the benefit of collaborative table vs mic off room
+    - weigh the benefit of collaborative table vs mic off table.  
+      - maybe a mix of both?  
+      - sometimes you  know what you need to do and just need to shred out the code.  
+      - sometimes you need collaboration
 - Concepts feel (somewhat) comfortable in lecture, not in lab
   - that's ok!  you start to learn, then see it a different way.  you know more than you think you do!
   - remember to ask for help, and keep playing with the toys in the sand box
