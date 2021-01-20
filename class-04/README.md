@@ -1,5 +1,39 @@
 # HTML Links, JS Functions, and Intro to CSS Layout
 
+## repl 
+- [Repl:  Review Arrays, For Loops,  and While Loops](https://repl.it/@rkgallaway/201n21-review-03-arrays-for-and-while-loops#index.js)
+- [Repl:  Functions Demo](https://repl.it)
+
+## Feedback
+
+#### Pros
+
+- shout outs to instructional staff:  Bryant, Paul, Ryan, TAs in general
+- things seem tob e going well overall
+- code review
+- conceptual coverage - many angles, demo, practice challenges,  lab
+- collaboration - remo
+
+#### Cons
+
+- that damn storm and the interwebs...
+- questions in lecture:  are they questions for lecture or for 1:1 assistance?
+- Canvas Navigation
+  - let's chat about how to best navigate
+- Remo 
+  - Buggy 
+    - Mac Chrome Refresh - try `command shift R`
+    - Windows Chrome Refresh - try `control shift R`
+    - Not using Chrome, maybe time to do so?
+  - Ettiquette, trying to work...  need to chat...  it's a fine line!  
+    - if getting help, maybe best to go to another table?
+    - if question, does it have to be asked to move forward?  if not, perhaps save til you have a few and ask them in same conversation - less interupptions
+    - silence mics when not engaging group
+    - weigh the benefit of collaborative table vs mic off room
+- Concepts feel (somewhat) comfortable in lecture, not in lab
+  - that's ok!  you start to learn, then see it a different way.  you know more than you think you do!
+  - remember to ask for help, and keep playing with the toys in the sand box
+
 ## Learning Objectives
 
 As a result of completing Lecture 4 of Code 201, students will:
