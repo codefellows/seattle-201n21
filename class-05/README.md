@@ -5,6 +5,11 @@
 ## repl
 
 - [Review: Functions and Control Flow](https://repl.it/@rkgallaway/201n21-review-funcitons-control-flow#index.js)
+- [Class 05 Warm Up](https://codefellows.github.io/code-201-guide/curriculum/class-05/warm-up/)
+- [Class 05 Warm Up Repl](https://repl.it/@rkgallaway/201n21-warmup-class-05#index.js)
+- [More with Arrays](https://repl.it/@rkgallaway/201n21-more-arrays#index.js)
+- [CSS Positioning](https://codepen.io/rkgallaway/pen/rNMgodq)
+- [More with Functions](https://repl.it/@rkgallaway/201n21-Class-05-Functions-Arrays#index.js)
 
 ## Lecture
 
