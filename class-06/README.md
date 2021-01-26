@@ -2,6 +2,12 @@
 
 <a id="top"></a>
 
+## repls
+
+- [Review Functions and Arrays](https://repl.it/@rkgallaway/201n21-review-functions-arrays#index.js)
+- [Object Literal Preview](https://repl.it/@rkgallaway/object-literal-intro#index.js)
+<!-- - [Object Literals](repl.it) -->
+
 ## Lecture
 
 ## Learning Objectives
