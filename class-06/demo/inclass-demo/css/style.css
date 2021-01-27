@@ -1,0 +1,41 @@
+body {
+  background-color: lightgoldenrodyellow;
+  width: 960px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin: 25px;
+}
+
+section {
+  border: thick solid goldenrod;
+  border-radius: 25px;
+}
+
+section img {
+  margin: 10px;
+  border-radius: 25px;
+  border: medium solid goldenrod;
+  width: 600px;
+}
+
+article  {
+  width:  33%;
+  float: right;
+  margin-right: 10px;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+p {
+  line-height: 1.25em;
+  text-align: justify;
+}
+
+
