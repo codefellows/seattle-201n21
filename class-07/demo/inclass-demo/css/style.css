@@ -41,7 +41,8 @@ p {
 table {
 	border-collapse: separate;
   border-spacing: 5px;
-  
+  border: medium solid goldenrod;
+  margin: 25px auto;
 }
 
 th, td {
