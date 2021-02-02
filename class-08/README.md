@@ -2,6 +2,9 @@
 
 ## Today's Schedule
 
+## Repl
+- [Constructor Review](https://repl.it/@rkgallaway/review-201n21-constructors#index.js)
+
 ### Learning Objectives
 
 As a result of completing Lecture 8 of Code 201, students will:
