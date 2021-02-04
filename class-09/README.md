@@ -1,5 +1,9 @@
 # HTML Forms and JS Events
 
+## Repl
+
+- [Wednesday's 2d Array Prequel](https://repl.it/@rkgallaway/201n21-2darray-prequel#index.js)
+
 ## Today's Schedule
 
 ### Learning Objectives
