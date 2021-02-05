@@ -3,6 +3,8 @@
 ## Repl
 
 - [Wednesday's 2d Array Prequel](https://repl.it/@rkgallaway/201n21-2darray-prequel#index.js)
+- [CSS  Review / Warmup](https://codepen.io/rkgallaway/pen/vYyLmMV)
+- [Wednesday's 2d Array Prequel](https://repl.it/@rkgallaway/201n21-more-2d-array-fun)
 
 ## Today's Schedule
 
