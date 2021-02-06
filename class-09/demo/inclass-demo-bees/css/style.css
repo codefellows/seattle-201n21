@@ -1,0 +1,65 @@
+body {
+  font-family:'Courier New', Courier, monospace;
+  background-color: lightgoldenrodyellow;
+  width: 960px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Sriracha', cursive;
+  font-size: 3em;
+  text-align: center;
+  margin: 25px;
+
+}
+
+section {
+  border: thick solid goldenrod;
+  border-radius: 25px;
+}
+
+section img {
+  margin: 10px;
+  border-radius: 25px;
+  border: medium solid goldenrod;
+  width: 600px;
+}
+
+article  {
+  width:  33%;
+  float: right;
+  margin-right: 10px;
+}
+
+h3 {
+  font-family: 'DM Serif Text', serif;
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+p {
+  line-height: 1.25em;
+  text-align: justify;
+}
+
+table {
+	border-collapse: separate;
+  border-spacing: 5px;
+  border: medium solid goldenrod;
+  margin: 25px auto;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid goldenrod;
+  border-radius: 5px;;
+}
+
+th {
+  background-color: rgba(218, 165, 32, .5);
+  font-weight: bold;
+}
+
+td {
+  text-align: right;
+}

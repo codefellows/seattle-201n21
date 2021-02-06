@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Forms and Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Events:  with boxes and forms</h1>
+  </header>
+  <main>
+    <!-- <section id="container">
+      <h3>Click on a box below</h3>
+
+      <article id="box-one">Box 1</article>
+      <article id="box-two">Box 2</article>
+      <article id="box-three">Box 3</article>
+      <section id="results"></section>
+    </section> -->
+
+    <form id="container-two">
+      <fieldset>
+        <legend>gives fieldset context</legend>
+        
+        <!-- this is way one to create a label -->
+        <!-- way one.  use for/name attributes -->
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname">
+
+        <!--  way two.  wrap input inside label opening and closing tags -->
+        <label>Last Name
+          <input type="text" name="lastname">
+        </label>
+
+        <label>Age
+          <input type="text" name="age">
+        </label>
+
+        <label for="pets">What Pet do you have?</label>
+        <select name="pets">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="fish">Fish</option>
+          <option value="bees">Bees</option>
+          <option value="none">None</option>
+        </select>
+
+        <button type="submit">Send</button>
+
+      </fieldset>
+    </form>
+
+
+
+  </main>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
