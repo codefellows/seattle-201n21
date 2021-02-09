@@ -1,5 +1,10 @@
 # JS Debugging and More CSS Layout
 
+
+## Repl
+- [Review Forms and Event Handling](https://repl.it/@rkgallaway/201n21-review-form-event-handling#script.js)
+- [Debugging Exercise](repl.it)
+
 ## Learning Objectives
 
 As a result of completing Lecture 10 of Code 201, students will:
