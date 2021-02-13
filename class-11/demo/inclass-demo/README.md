@@ -24,6 +24,44 @@ Your app will randomly display two of these unique pictures at a time, the user 
 
 after choosing your favorite goat 15 times, the voting session will conclude and the app will render a list showing all of the goats names, the number of times they were viewed, and the number of clicks received.
 
-### Brainstormings and other ideas
 
-#### what do we need?
+
+#### What Do We Need?
+- Global Variables
+  - global click counter
+  - allGoats array
+  - image one
+  - image two
+
+- Constructor
+  - image(src)
+  - name
+  - views
+  - clicks
+  - push into allGoats array
+
+- render two images to the DOM
+  - get image element from DOM (if using IDS, or querySelector to grab the EXISTING img element)
+  - function to get reandom images form the allGoats array
+    - Math.random  get random index of the Goat Object - using that we can get the img src.  allGoat.length
+    - compare the two random indexes and confirm they are not the same.   while loop to make sure its NEVER the same
+  - function to render this to DOM
+    - we now HAVE the randoms - call getRandomFunction
+    - asign atrribute values to image one and two
+    - increment view for that object
+
+- prototype-methods?  shouldn't need them.
+- Event Handler
+  - increment global click counter
+  - increment click.  event.target.src  or  event.target.title or ....alt
+  - generate new random images
+  - stop or removeEventListener!
+  - render a list of template literal strings. example: "bunny-goat was viewed 5 times and clicked 4 times"
+
+- Event Listener
+  - Callback function - the event Handler
+
+
+
+
+### Brainstormings and other ideas
