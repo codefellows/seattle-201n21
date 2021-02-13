@@ -2,6 +2,9 @@
 
 <a id="top"></a>
 
+## Repl
+- [Array Review](https://repl.it/@rkgallaway/201n21-remembering-arrays#index.js)
+
 ## Lecture
 
 ### Learning Objectives
