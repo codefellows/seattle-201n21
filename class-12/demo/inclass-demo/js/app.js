@@ -4,10 +4,11 @@
 let totalClicks = 0;
 let clicksAllowed = 15;
 let allGoats = [];
+let indexArray = [];
+let uniqueImageCount = 4;
 let imageOne = document.querySelector('section img:first-child');
 let imageTwo = document.querySelector('section img:nth-child(2)');
 let myContainer = document.querySelector('section');
-let myButton = document.querySelector('div');
 
 function Goat(name, fileExtension = 'jpg') {
   this.name = name;
@@ -33,15 +34,15 @@ function getRandomIndex() {
 }
 
 function renderGoats() {
-  let firstGoatIndex = getRandomIndex();
-  let secondGoatIndex = getRandomIndex();
-  //  in lab today I recommend using an array.
-  // maybe name itindexArray
-  // check to see if the index is included in that array
-  // pop those results from the array or shift?  maybe?
-  while (firstGoatIndex === secondGoatIndex) {
-    secondGoatIndex = getRandomIndex();
+  while (indexArray.length < uniqueImageCount) {
+    let randomIndex = getRandomIndex();
+    while (!indexArray.includes(randomIndex)) {
+      indexArray.push(randomIndex);
+    }
   }
+  // console.log(indexArray);
+  let firstGoatIndex = indexArray.shift();
+  let secondGoatIndex = indexArray.shift();
 
   imageOne.src = allGoats[firstGoatIndex].src;
   imageOne.title = allGoats[firstGoatIndex].name;
@@ -52,24 +53,16 @@ function renderGoats() {
   allGoats[secondGoatIndex].views++;
 }
 
-function renderResults(){
-  let myList = document.querySelector('ul');
-  for (let i = 0; i < allGoats.length; i++){
-    let li = document.createElement('li');
-    li.textContent = `${allGoats[i].name} had ${allGoats[i].views} votes, and was seen ${allGoats[i].clicks} times`;
-    myList.appendChild(li);
-  }
-}
 
 function handleClick(event) {
-  if (event.target === myContainer){
+  if (event.target === myContainer) {
     alert('Please click an image and FOLLOW INSTRUCTIONS');
   }
 
   totalClicks++;
   let goatClicked = event.target.title;
 
-  for (let i = 0; i < allGoats.length; i++){
+  for (let i = 0; i < allGoats.length; i++) {
     if (goatClicked === allGoats[i].name) {
       allGoats[i].clicks++;
     }
@@ -79,19 +72,59 @@ function handleClick(event) {
   if (totalClicks === clicksAllowed) {
     // REMOVE EVENT LISTENER
     myContainer.removeEventListener('click', handleClick);
+    renderChart();
   }
-
+  // renderChart();
 }
 
-function handleButtonClick(event){ //eslint-disable-line
-
-  if(totalClicks === clicksAllowed){
-    renderResults();
-  }
-}
 
 renderGoats();
 
+function renderChart() {
+  let goatNames = [];
+  let goatViews = [];
+  let goatClicks = [];
+  for (let i = 0; i < allGoats.length; i++) {
+    goatNames.push(allGoats[i].name);
+    goatViews.push(allGoats[i].views);
+    goatClicks.push(allGoats[i].clicks);
+  }
+  console.log('goatNames: ', goatNames);
+  console.log('goatViews', goatViews);
+  console.log('goatClicks', goatClicks);
+  var chartObject = {
+    type: 'bar',
+    data: {
+      labels: goatNames,
+      datasets: [{
+        label: 'Views',
+        data: goatViews,
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: 'rgba(54, 162, 235, 1)',
+        borderWidth: 3
+      },
+      {
+        label: 'Clicks',
+        data: goatClicks,
+        backgroundColor: 'rgba(153, 102, 255, 0.2)',
+        borderColor: 'rgba(153, 102, 255, 1)',
+        borderWidth: 3
+      }]
+    },
+    responsive: false,
+    options: {
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero: true
+          }
+        }]
+      }
+    }
+  };
+
+  let ctx = document.getElementById('myChart').getContext('2d');
+  let myChart = new Chart(ctx, chartObject);
+}
 
 myContainer.addEventListener('click', handleClick);
-myButton.addEventListener('click', handleButtonClick);
