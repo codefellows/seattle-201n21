@@ -1,5 +1,7 @@
 ## Lecture
 
+## Repls
+- [Code Challenge - Warm Up - Fizz Buzz](https://repl.it/@rkgallaway/201n21-fizz-buzz#index.js)
 ### Learning Objectives
 
 As a result of completing Lecture 13 of Code 201, students will:
