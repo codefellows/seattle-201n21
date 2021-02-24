@@ -3,6 +3,11 @@
 
 ## Lecture
 
+## Repl & CodePen
+- [String Manipulation](https://repl.it/@rkgallaway/201n21-string-manipulation-challenge#index.js)
+- [More String Manipulation - Garfield's question](https://repl.it/@rkgallaway/201n21-string-manipulation-challenge#index.js)
+- [some CSS animation fun](https://codepen.io/rkgallaway/pen/rNWYPWb)
+
 ### Learning Objectives
 
 As a result of completing Lecture 14 of Code 201, students will:
