@@ -65,6 +65,9 @@ function renderGoats() {
   allGoats[secondGoatIndex].views++;
 }
 
+String.prototype.capitalize = function(){
+  return this.charAt(0).toUpperCase() + this.slice(1);
+};
 
 function handleClick(event) {
   if (event.target === myContainer) {
@@ -101,7 +104,7 @@ function renderChart() {
   let goatViews = [];
   let goatClicks = [];
   for (let i = 0; i < allGoats.length; i++) {
-    goatNames.push(allGoats[i].name);
+    goatNames.push(allGoats[i].name.capitalize());
     goatViews.push(allGoats[i].views);
     goatClicks.push(allGoats[i].clicks);
   }
