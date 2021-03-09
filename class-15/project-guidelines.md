@@ -182,19 +182,19 @@ Your team should practice their presentation prior to the final presentation day
 
 Create a slide deck/power point for your presentation. Have the beginning slides be an introduction to your team, followed by a slide to kick off your demo, then an ending slide to prompt for question.
 
-Decide whose computer to use during the presentation and bring that computer to the practice session. Make sure you have any cables or adapters needed. Test this same computer in the main event space. Test a backup computer as well, just in case.
+Decide whose computer to use during the presentation and bring that computer to the practice session. Test this same computer in Zoom. Test a backup computer as well, just in case.
 
-The presentation should be approximately 15 minutes long, including some time at the end for questions. Present from the deployed site. **Each member should introduce themselves with their personal pitch. You've praticed it, now use it!** The "About Us" page provides a great backdrop for this portion of the presentation.
+The presentation should be approximately 10 - 12 minutes long, with about 3 - 5 minutes for questions. Present from the deployed site. **Each member should introduce themselves with their personal pitch. You've praticed it, now use it!** The "About Us" page provides a possible backdrop for this portion of the presentation, or have this info on a slide.
 
 Each member of the team should have a speaking part. It is okay to use note-cards if you are nervous about forgetting what to talk about. Some of the areas to discuss include:
 
-- An introduction of the project and the problem domain, including the team's solution
-- A demonstration of the application's functionality
-- The team's approach to planning and communication throughout the week
+- An introduction of the project and the problem domain
+- Demo the app
+- The team's approach to planning and communication throughout the week (possibly) project tools used and git flow
 - A technical obstacle or two and how those obstacles were overcome
 - A portion of the final application that each team member is particularly proud of
 
-In general, while it's okay to show a small amount (~3 lines) of code to show off an interesting feature in your presentation, do not show large amounts of code or entire files during the presentation unless the audience asks to see it. Have a code editor open just in case though.
+In general, recommendation is to not show code during the presentation. If you do, recommendation is to show an image of a code snippet. Keep it high level and assume your audience does not understand your coding language.  This way less or more advanced devs don't get bored!
 
 In addition to the scheduled practice session, the team is encouraged to continue to practice on their own. Keep track of the time and adjust accordingly. Practice with the microphone (or holding something) to feel comfortable with holding it and practice passing the microphone between team members as you switch speaking roles.
 
@@ -203,7 +203,7 @@ The appropriate dress code is business casual - not too formal and not too casua
 Here are some other tips for a successful presentation:
 
 - Tell us early in your presentation what your app can do and clearly state what inspired you to build that app.
-- Practice your application demo/walkthrough. As you're entering example inputs, have a plan for what you're typing; it really derails a presentation when someone on the microphone says "so here you enter your name" and the person typing on the computer is trying to think of a name to enter.
+- Practice your application demo/walkthrough. As you're entering example inputs, have a plan for what you're typing; it really derails a presentation when speaker says "so here you enter your name" and the person typing on the computer is trying to think of a name to enter.
 - Make sure to keep your tone positive about what your app can do, especially in the early part of your presentation. Make this what you would say about your project in an interview setting. Avoid the temptation to tell self-deprecating jokes; you need to practice talking about this app in a professional, pitch-y way.
 - The right time to talk about things you didn't get to finish is as "stretch goals" that you talk about towards the end of your presentation. This is also the right time for descriptions of technical obstacles you faced during the week, which is the time it's okay to make self-deprecating jokes.
 - One other useful way to think about this presentation is that it's a chance for you to share what you learned this week with your classmates. If you used a new technology or a new library, how did it go? Should your classmates also use that library, or should they stay away? What do you wish you had known before starting a project like this?
