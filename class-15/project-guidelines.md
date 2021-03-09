@@ -196,7 +196,7 @@ Each member of the team should have a speaking part. It is okay to use note-card
 
 In general, recommendation is to not show code during the presentation. If you do, recommendation is to show an image of a code snippet. Keep it high level and assume your audience does not understand your coding language.  This way less or more advanced devs don't get bored!
 
-In addition to the scheduled practice session, the team is encouraged to continue to practice on their own. Keep track of the time and adjust accordingly. Practice with the microphone (or holding something) to feel comfortable with holding it and practice passing the microphone between team members as you switch speaking roles.
+In addition to the scheduled practice session, the team is encouraged to continue to practice on their own. Keep track of the time and adjust accordingly. Practice "passing the microphone" between team members as you switch speaking roles in Zoom - know your speaking order.
 
 The appropriate dress code is business casual - not too formal and not too casual.
 
